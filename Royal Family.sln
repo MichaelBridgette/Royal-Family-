@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Royal Family", "Royal Family.csproj", "{0ED42E71-6494-6779-7521-2A7AC1F4678C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Royal Family.Plugins", "Royal Family.Plugins.csproj", "{9912CF9A-894F-2C1E-267A-5CE078BBD35A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Royal Family.Editor.Plugins", "Royal Family.Editor.Plugins.csproj", "{2F7D06B6-777C-92F8-AE84-81A7A49D2D20}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Royal Family.Editor", "Royal Family.Editor.csproj", "{CAABF3AE-ACC6-BB08-14A4-C7052C0CE41A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0ED42E71-6494-6779-7521-2A7AC1F4678C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0ED42E71-6494-6779-7521-2A7AC1F4678C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0ED42E71-6494-6779-7521-2A7AC1F4678C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0ED42E71-6494-6779-7521-2A7AC1F4678C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9912CF9A-894F-2C1E-267A-5CE078BBD35A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9912CF9A-894F-2C1E-267A-5CE078BBD35A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9912CF9A-894F-2C1E-267A-5CE078BBD35A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9912CF9A-894F-2C1E-267A-5CE078BBD35A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F7D06B6-777C-92F8-AE84-81A7A49D2D20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F7D06B6-777C-92F8-AE84-81A7A49D2D20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F7D06B6-777C-92F8-AE84-81A7A49D2D20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F7D06B6-777C-92F8-AE84-81A7A49D2D20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAABF3AE-ACC6-BB08-14A4-C7052C0CE41A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAABF3AE-ACC6-BB08-14A4-C7052C0CE41A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAABF3AE-ACC6-BB08-14A4-C7052C0CE41A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAABF3AE-ACC6-BB08-14A4-C7052C0CE41A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
