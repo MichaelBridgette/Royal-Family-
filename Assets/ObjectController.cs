@@ -17,22 +17,40 @@ namespace GoogleVR.HelloVR {
 
   [RequireComponent(typeof(Collider))]
   public class ObjectController : MonoBehaviour {
-    private Vector3 startingPosition;
-    private Renderer myRenderer;
 
-    public Sprite inactiveMaterial;
-    public Sprite gazedAtMaterial;
+        private Vector3 startingPosition;
+        private Renderer myRenderer;
+        private bool lastGaze;
+
+        public Sprite inactiveMaterial;
+        public Sprite gazedAtMaterial;
+        public AudioSource clip;
 
     void Start() {
       startingPosition = transform.localPosition;
       myRenderer = GetComponent<Renderer>();
       SetGazedAt(false);
+      clip.Stop();
     }
 
     public void SetGazedAt(bool gazedAt) {
       if (inactiveMaterial != null && gazedAtMaterial != null) {
     //    myRenderer.material = gazedAt ? gazedAtMaterial : inactiveMaterial;
         this.GetComponent<SpriteRenderer>().sprite = gazedAt ? gazedAtMaterial : inactiveMaterial;
+
+                if(gazedAt != lastGaze)
+                {
+                    if(gazedAt == true)
+                    {
+                        clip.Play();
+                    }
+                    else
+                    {
+                        clip.Stop();
+                    }
+                }
+
+                lastGaze = gazedAt;
         return;
       }
     }
