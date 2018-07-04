@@ -155,7 +155,7 @@ GameObject:
   - component: {fileID: 212454098804132730}
   - component: {fileID: 65831574435509792}
   - component: {fileID: 114945706887943878}
-  - component: {fileID: 114871575147487880}
+  - component: {fileID: 114902684180631184}
   m_Layer: 0
   m_Name: Photo
   m_TagString: Untagged
@@ -170,7 +170,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1732085288453588}
   m_LocalRotation: {x: 0.9999999, y: -0.00000037932028, z: 0.00045993918, w: -0.00000029502957}
-  m_LocalPosition: {x: 0.02, y: 2.217, z: 0}
+  m_LocalPosition: {x: 0.02, y: 2.217, z: 0.02}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4913672594015708}
@@ -183,7 +183,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1711689922146858}
   m_LocalRotation: {x: 0.707442, y: -0.00000005960935, z: -0.7067715, w: -0.00000047683656}
-  m_LocalPosition: {x: 0.009971753, y: -0.038000036, z: 0.03000942}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4913672594015708}
@@ -196,7 +196,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1917178929733866}
   m_LocalRotation: {x: -0.9999999, y: 0.00000029501314, z: -0.0005032122, w: -0.00000037933324}
-  m_LocalPosition: {x: -0, y: 1.005, z: 0.01}
+  m_LocalPosition: {x: 0, y: 1.011, z: -0.01}
   m_LocalScale: {x: 1.38, y: 0.5, z: 1}
   m_Children: []
   m_Father: {fileID: 4913672594015708}
@@ -540,7 +540,7 @@ Light:
   m_UseColorTemperature: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
---- !u!114 &114871575147487880
+--- !u!114 &114902684180631184
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -552,7 +552,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inactiveMaterial: {fileID: 21300000, guid: 7a582b3b42f46e943a3eee8ef3f83762, type: 3}
-  gazedAtMaterial: {fileID: 21300000, guid: 05a1aebe2fb271b4bae73e54a31341c4, type: 3}
+  gazedAtMaterial: {fileID: 21300000, guid: 260bc2dfa0e426f41aa8e6a16b5e0eb9, type: 3}
 --- !u!114 &114945706887943878
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -569,7 +569,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 114871575147487880}
+        - m_Target: {fileID: 114902684180631184}
           m_MethodName: SetGazedAt
           m_Mode: 6
           m_Arguments:
@@ -586,7 +586,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 114871575147487880}
+        - m_Target: {fileID: 114902684180631184}
           m_MethodName: SetGazedAt
           m_Mode: 6
           m_Arguments:

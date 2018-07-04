@@ -552,7 +552,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inactiveMaterial: {fileID: 21300000, guid: 1544c790a9ed56d4fb4d8c16d2ab7cf5, type: 3}
-  gazedAtMaterial: {fileID: 21300000, guid: 05a1aebe2fb271b4bae73e54a31341c4, type: 3}
+  gazedAtMaterial: {fileID: 21300000, guid: 260bc2dfa0e426f41aa8e6a16b5e0eb9, type: 3}
 --- !u!114 &114792283738416742
 MonoBehaviour:
   m_ObjectHideFlags: 1

@@ -22,6 +22,7 @@ GameObject:
   - component: {fileID: 212159718252084728}
   - component: {fileID: 65170562117081376}
   - component: {fileID: 114425193428918716}
+  - component: {fileID: 114920794445772232}
   m_Layer: 0
   m_Name: Picture
   m_TagString: Untagged
@@ -209,7 +210,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1516593260406210}
   m_LocalRotation: {x: 0.707442, y: -0.00000005960935, z: -0.7067715, w: -0.00000047683656}
-  m_LocalPosition: {x: 0.009971753, y: -0.038000036, z: 0.03000942}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4553663891637294}
@@ -269,8 +270,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1006514737212388}
   m_LocalRotation: {x: -0.9999999, y: 0.00000029501314, z: -0.0005032122, w: -0.00000037933324}
-  m_LocalPosition: {x: 0.02, y: 0.997, z: -0.02}
-  m_LocalScale: {x: 1.31, y: 0.5878788, z: 1}
+  m_LocalPosition: {x: 0.03, y: 0.975, z: -0.007}
+  m_LocalScale: {x: 1.31, y: 0.58, z: 1}
   m_Children: []
   m_Father: {fileID: 4553663891637294}
   m_RootOrder: 2
@@ -570,7 +571,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 0}
+        - m_Target: {fileID: 114920794445772232}
           m_MethodName: SetGazedAt
           m_Mode: 6
           m_Arguments:
@@ -587,7 +588,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 0}
+        - m_Target: {fileID: 114920794445772232}
           m_MethodName: SetGazedAt
           m_Mode: 6
           m_Arguments:
@@ -601,6 +602,19 @@ MonoBehaviour:
       m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI,
         Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   delegates: []
+--- !u!114 &114920794445772232
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1006514737212388}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a717214bbdf4e74db4c0709d5d16db2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inactiveMaterial: {fileID: 21300000, guid: 841d6d2a31c62e144a8944d377198078, type: 3}
+  gazedAtMaterial: {fileID: 21300000, guid: 260bc2dfa0e426f41aa8e6a16b5e0eb9, type: 3}
 --- !u!123 &123234170440398184
 LensFlare:
   m_ObjectHideFlags: 1

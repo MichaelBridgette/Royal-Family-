@@ -599,7 +599,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inactiveMaterial: {fileID: 21300000, guid: e8772412bfaa00f46988a816457213ca, type: 3}
-  gazedAtMaterial: {fileID: 21300000, guid: 05a1aebe2fb271b4bae73e54a31341c4, type: 3}
+  gazedAtMaterial: {fileID: 21300000, guid: 260bc2dfa0e426f41aa8e6a16b5e0eb9, type: 3}
 --- !u!123 &123003350004076558
 LensFlare:
   m_ObjectHideFlags: 1

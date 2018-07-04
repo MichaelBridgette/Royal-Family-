@@ -71,7 +71,7 @@ GameObject:
   - component: {fileID: 212917546000320996}
   - component: {fileID: 65550663258403768}
   - component: {fileID: 114225732524756950}
-  - component: {fileID: 114988275217428592}
+  - component: {fileID: 114981229461336790}
   m_Layer: 0
   m_Name: Photo
   m_TagString: Untagged
@@ -170,7 +170,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1224554165210118}
   m_LocalRotation: {x: 0.9999999, y: -0.00000037932028, z: 0.00045993918, w: -0.00000029502957}
-  m_LocalPosition: {x: 0.02, y: 2.217, z: 0}
+  m_LocalPosition: {x: 0.02, y: 2.217, z: 0.02}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4626236144725992}
@@ -198,8 +198,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1177099470732854}
   m_LocalRotation: {x: -0.9999999, y: 0.00000029501314, z: -0.0005032122, w: -0.00000037933324}
-  m_LocalPosition: {x: 0.023966245, y: 0.9854929, z: 0.0100165475}
-  m_LocalScale: {x: 1.3698627, y: 0.6993007, z: 1}
+  m_LocalPosition: {x: 0, y: 1.011, z: -0.01}
+  m_LocalScale: {x: 1.37, y: 0.7, z: 1}
   m_Children: []
   m_Father: {fileID: 4626236144725992}
   m_RootOrder: 2
@@ -237,7 +237,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1508918572305476}
   m_LocalRotation: {x: 0.707442, y: -0.00000005960935, z: -0.7067715, w: -0.00000047683656}
-  m_LocalPosition: {x: 0.009971753, y: -0.038000036, z: 0.03000942}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4626236144725992}
@@ -556,7 +556,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 114988275217428592}
+        - m_Target: {fileID: 114981229461336790}
           m_MethodName: SetGazedAt
           m_Mode: 6
           m_Arguments:
@@ -573,7 +573,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 114988275217428592}
+        - m_Target: {fileID: 114981229461336790}
           m_MethodName: SetGazedAt
           m_Mode: 6
           m_Arguments:
@@ -587,7 +587,7 @@ MonoBehaviour:
       m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI,
         Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   delegates: []
---- !u!114 &114988275217428592
+--- !u!114 &114981229461336790
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -599,7 +599,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inactiveMaterial: {fileID: 21300000, guid: 58f76b4c344274248a0a9cb09be96c92, type: 3}
-  gazedAtMaterial: {fileID: 21300000, guid: 05a1aebe2fb271b4bae73e54a31341c4, type: 3}
+  gazedAtMaterial: {fileID: 21300000, guid: 260bc2dfa0e426f41aa8e6a16b5e0eb9, type: 3}
 --- !u!123 &123493019270366966
 LensFlare:
   m_ObjectHideFlags: 1
