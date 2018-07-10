@@ -11,6 +11,23 @@ Prefab:
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 1309434365724966}
   m_IsPrefabParent: 1
+--- !u!1 &1060741353662556
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4727156308204920}
+  - component: {fileID: 23509883870734500}
+  - component: {fileID: 102667353260265654}
+  m_Layer: 0
+  m_Name: your product name (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &1137425829714358
 GameObject:
   m_ObjectHideFlags: 0
@@ -55,6 +72,22 @@ GameObject:
   - component: {fileID: 4430699166006128}
   m_Layer: 0
   m_Name: James_VI
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1380813804305214
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4577047392344728}
+  - component: {fileID: 82981280395112146}
+  m_Layer: 0
+  m_Name: Audio
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -244,6 +277,8 @@ Transform:
   - {fileID: 4515496690363300}
   - {fileID: 4516824222412054}
   - {fileID: 4102771781042712}
+  - {fileID: 4577047392344728}
+  - {fileID: 4727156308204920}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: -180, y: 90, z: -0.000015258789}
@@ -274,6 +309,32 @@ Transform:
   m_Children: []
   m_Father: {fileID: 4430699166006128}
   m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4577047392344728
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1380813804305214}
+  m_LocalRotation: {x: -0.000000374507, y: 1, z: -0, w: 1.7531939e-14}
+  m_LocalPosition: {x: 0.02, y: 0.93, z: -0.27999878}
+  m_LocalScale: {x: 0.9999918, y: 1.0000023, z: 1.0000052}
+  m_Children: []
+  m_Father: {fileID: 4430699166006128}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4727156308204920
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1060741353662556}
+  m_LocalRotation: {x: 0.9999999, y: -0.00000037932028, z: 0.00045993918, w: -0.0000002950296}
+  m_LocalPosition: {x: 0.04, y: 0.892, z: -0.017}
+  m_LocalScale: {x: 0.9999913, y: 1.0000013, z: 1.000005}
+  m_Children: []
+  m_Father: {fileID: 4430699166006128}
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4906343934047548
 Transform:
@@ -311,6 +372,40 @@ MeshRenderer:
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
   m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!23 &23509883870734500
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1060741353662556}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 0dde0aa590219264692d7628efe43ddd, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
   m_StitchLightmapSeams: 0
@@ -483,6 +578,86 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!82 &82981280395112146
+AudioSource:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1380813804305214}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 33ae782d4b7e53d4585f0303d56c490a, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
 --- !u!102 &102665428657376976
 TextMesh:
   serializedVersion: 3
@@ -504,6 +679,31 @@ TextMesh:
   m_Color:
     serializedVersion: 2
     rgba: 4281413937
+--- !u!102 &102667353260265654
+TextMesh:
+  serializedVersion: 3
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1060741353662556}
+  m_Text: "<b>FACTS</b>\r\n<b>BORN</b>: June 19, 1566\r\n<b>DIED</b>: March 27, 1625\r\n<b>MARRIED</b>:
+    \ Anne of Denmark\r\n<b>REIGN</b>: 24 March 1603 until his death in 1625\r\n<b>BURIED</b>:
+    Westminster Abbey, London, UK\r\n\nJames VI and I was King of Scotland as\nJames
+    VI from 24 July 1567 and King of\nEngland and Ireland as James I from the\nunion
+    of the Scottish and English crowns\non 24 March 1603 until his death in 1625\r"
+  m_OffsetZ: 0
+  m_CharacterSize: 0.09
+  m_LineSpacing: 0.75
+  m_Anchor: 4
+  m_Alignment: 1
+  m_TabSize: 4
+  m_FontSize: 0
+  m_FontStyle: 0
+  m_RichText: 1
+  m_Font: {fileID: 12800000, guid: 5146bd94c7837e94c874765bca17db42, type: 3}
+  m_Color:
+    serializedVersion: 2
+    rgba: 4294967295
 --- !u!108 &108536023533352274
 Light:
   m_ObjectHideFlags: 1
@@ -599,7 +799,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inactiveMaterial: {fileID: 21300000, guid: be413fd38da491a4cb31fb51fc0563e1, type: 3}
-  gazedAtMaterial: {fileID: 21300000, guid: 260bc2dfa0e426f41aa8e6a16b5e0eb9, type: 3}
+  gazedAtMaterial: {fileID: 21300000, guid: 16c72e740fc79224f8eb3dc7d568b1cc, type: 3}
+  clip: {fileID: 82981280395112146}
+  text: {fileID: 102667353260265654}
 --- !u!123 &123020774752489520
 LensFlare:
   m_ObjectHideFlags: 1

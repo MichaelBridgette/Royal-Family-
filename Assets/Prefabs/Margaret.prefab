@@ -132,6 +132,22 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!1 &1363306145655596
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4263774865983844}
+  - component: {fileID: 82670841088593174}
+  m_Layer: 0
+  m_Name: Audio
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &1534521250960716
 GameObject:
   m_ObjectHideFlags: 0
@@ -163,6 +179,36 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!1 &1970361278613790
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4062752092759888}
+  - component: {fileID: 23829886100746480}
+  - component: {fileID: 102419524171697048}
+  m_Layer: 0
+  m_Name: your product name (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4062752092759888
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1970361278613790}
+  m_LocalRotation: {x: 0.9999999, y: -0.00000037932028, z: 0.00045993918, w: -0.0000002950296}
+  m_LocalPosition: {x: 0.04, y: 1.003, z: -0.017}
+  m_LocalScale: {x: 0.9999913, y: 1.0000013, z: 1.000005}
+  m_Children: []
+  m_Father: {fileID: 4081594234702260}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4081594234702260
 Transform:
   m_ObjectHideFlags: 1
@@ -179,6 +225,8 @@ Transform:
   - {fileID: 4187717450119176}
   - {fileID: 4970622768247556}
   - {fileID: 4945801275701598}
+  - {fileID: 4263774865983844}
+  - {fileID: 4062752092759888}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -209,6 +257,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 4187717450119176}
   m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4263774865983844
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1363306145655596}
+  m_LocalRotation: {x: 0.00000019196487, y: -0.70675087, z: 0.0000006093097, w: -0.70746255}
+  m_LocalPosition: {x: 0.36, y: 0.97, z: -0.61}
+  m_LocalScale: {x: 0.6699949, y: 1.000002, z: 1.4925444}
+  m_Children: []
+  m_Father: {fileID: 4081594234702260}
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4391109004399216
 Transform:
@@ -424,6 +485,40 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!23 &23829886100746480
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1970361278613790}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 0dde0aa590219264692d7628efe43ddd, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
 --- !u!33 &33289782370169610
 MeshFilter:
   m_ObjectHideFlags: 1
@@ -483,6 +578,112 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2.2, y: 2.64, z: 0.2}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!82 &82670841088593174
+AudioSource:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1363306145655596}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 9998d3553aa14e34db7703f74c851b34, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!102 &102419524171697048
+TextMesh:
+  serializedVersion: 3
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1970361278613790}
+  m_Text: "<B>FACTS\r</B>\n<b>BORN</b>: November 28, 1489\n<B>DIED</B>: October 18,
+    1541\n<B>MARRIED</B>:  Henry Stewart, 1st Lord Methven\r\n<B>REIGN</B>: Queen
+    of Scots from 1503 until 1513\r\n<B>BURIED</B>: Perth Charterhouse, Perth, UK\r\n\r\nMargaret
+    Tudor was Queen of Scotland\nfrom 1503 until 1513 by marriage to\nJames IV of
+    Scotland and then, after \nher husband died fighting the English, \nshe became
+    regent for their son \nJames V of Scotland from 1513 until 1515.  \r\n"
+  m_OffsetZ: 0
+  m_CharacterSize: 0.09
+  m_LineSpacing: 0.75
+  m_Anchor: 4
+  m_Alignment: 1
+  m_TabSize: 4
+  m_FontSize: 0
+  m_FontStyle: 0
+  m_RichText: 1
+  m_Font: {fileID: 12800000, guid: 5146bd94c7837e94c874765bca17db42, type: 3}
+  m_Color:
+    serializedVersion: 2
+    rgba: 4294967295
 --- !u!102 &102809807418685752
 TextMesh:
   serializedVersion: 3
@@ -552,7 +753,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inactiveMaterial: {fileID: 21300000, guid: 1544c790a9ed56d4fb4d8c16d2ab7cf5, type: 3}
-  gazedAtMaterial: {fileID: 21300000, guid: 260bc2dfa0e426f41aa8e6a16b5e0eb9, type: 3}
+  gazedAtMaterial: {fileID: 21300000, guid: 16c72e740fc79224f8eb3dc7d568b1cc, type: 3}
+  clip: {fileID: 82670841088593174}
+  text: {fileID: 102419524171697048}
 --- !u!114 &114792283738416742
 MonoBehaviour:
   m_ObjectHideFlags: 1
